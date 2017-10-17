@@ -6,6 +6,17 @@
 \usage{
 draw_a_name(the_name, the_sex)
 }
+\arguments{
+\item{the_name}{Margaux}
+
+\item{the_sex}{F}
+}
+\value{
+result
+}
 \description{
 Title
+}
+\examples{
+draw_a_name('Margaux', 'F')
 }

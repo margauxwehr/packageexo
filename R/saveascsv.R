@@ -1,11 +1,11 @@
 #' Title
 #'
-#' @param dataset
-#' @param filename
-#' @param row.names
-#' @param ...
+#' @param dataset we choose iris
+#' @param filename iris in csv format
+#' @param row.names optional
+#' @param ... other optional parametre
 #' @import assertthat
-#' @return
+#' @return result
 #' @export
 #'
 #' @examples

@@ -1,14 +1,14 @@
 #' Title
 #'
-#' @param the_name
-#' @param the_sex
+#' @param the_name Margaux
+#' @param the_sex F
 #' @import dplyr
 #' @import ggplot2
 #' @import prenoms
-#' @return
+#' @return result
 #' @export
 #'
-#' @examples
+#' @examples draw_a_name('Margaux', 'F')
 draw_a_name<-function(the_name,the_sex) {
   b=1900:2015
   assertthat::assert_that(is.character(the_name))

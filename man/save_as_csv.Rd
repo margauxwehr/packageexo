@@ -6,6 +6,18 @@
 \usage{
 save_as_csv(dataset, filename, row.names = FALSE, ...)
 }
+\arguments{
+\item{dataset}{we choose iris}
+
+\item{filename}{iris in csv format}
+
+\item{row.names}{optional}
+
+\item{...}{other optional parametre}
+}
+\value{
+result
+}
 \description{
 Title
 }

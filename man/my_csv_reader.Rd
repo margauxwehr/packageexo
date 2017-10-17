@@ -6,6 +6,9 @@
 \usage{
 my_csv_reader(folder = getwd())
 }
+\arguments{
+\item{folder}{from wd}
+}
 \value{
 result
 }
