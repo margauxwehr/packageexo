@@ -7,8 +7,16 @@
 draw_names(the_name, the_name2)
 }
 \arguments{
-\item{the_name2}{}
+\item{the_name}{name 1}
+
+\item{the_name2}{name 2}
+}
+\value{
+result
 }
 \description{
 Title
+}
+\examples{
+draw_names(the_name = 'Youssef', the_name2 = 'Margaux')
 }

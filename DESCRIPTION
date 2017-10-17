@@ -1,7 +1,8 @@
 Package: packageexo
 Title: Package combining functions save as excel, draw names and multi excel
 Version: 0.0.0.9000
-Author: Margaux Wehr <margaux.wehr@polytechnique.edu>
+Author: Margaux Wehr 
+Maintainer: Margaux Wehr <margaux.wehr@polytechnique.edu>
 Description: Combines the above functions with the prenoms dataset.
 Depends: R (>= 3.4.1)
 License: GPL-3
@@ -12,4 +13,5 @@ Imports: readxl,
     dplyr,
     assertthat,
     ggplot2,
-    prenoms
+    prenoms,
+    utils

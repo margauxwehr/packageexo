@@ -6,9 +6,12 @@
 \usage{
 my_csv_reader(folder = getwd())
 }
-\arguments{
-\item{folder}{}
+\value{
+result
 }
 \description{
 Title
+}
+\examples{
+my_csv_reader(folder = getwd())
 }

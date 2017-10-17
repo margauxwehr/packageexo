@@ -6,9 +6,12 @@
 \usage{
 save_as_csv(dataset, filename, row.names = FALSE, ...)
 }
-\arguments{
-\item{...}{}
-}
 \description{
 Title
+}
+\examples{
+
+data(iris)
+save_as_csv(dataset=iris, filename="iris2.csv")
+
 }

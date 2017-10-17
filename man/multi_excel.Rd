@@ -15,3 +15,8 @@ a list
 \description{
 Title
 }
+\examples{
+\dontrun{
+multi_excel('jeux.xlsx')
+}
+}
